@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/bootstrap-responsive.min.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+      padding-top: 20px;
+      padding-bottom: 40px;
+      }
+      textarea {
+      width: 100%;
+      }
+      #input-name {
+      width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <form id="formLogin">
+            <span>Name:</span></br>
+            <input type="text" id="input-name">
+            <button type="submit" class="btn">Login</button>
+          </form>
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list" id="names">
+            </ul>
+          </div>
+        </div>
+        <div class="span9">
+          <textarea rows="20" name="doc"  id="doc" required></textarea>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="./js/socket.io.min.js"></script>
+    <script type="text/javascript" src="./js/collabedit.js"></script>
+  </body>
+</html>
