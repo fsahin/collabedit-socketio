@@ -12,6 +12,6 @@ You need to have gevent-socketio installed. Then just run the socketio-server.py
 python socketio-server.py
 ```
 
-Then go to [http://localhost:1234/collabedit.html](http://localhost:1234/collabedit.py) on your preferred browser.
+Then go to [http://localhost:1234/collabedit.html](http://localhost:1234/collabedit.html) on your preferred browser.
 
 
